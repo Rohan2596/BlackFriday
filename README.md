@@ -1,37 +1,21 @@
-## Welcome to GitHub Pages
+Problem Statement
+A retail company “ABC Private Limited” wants to understand the customer purchase behaviour (specifically, purchase amount) against various products of different categories. They have shared purchase summary of various customers for selected high volume products from last month.
+The data set also contains customer demographics (age, gender, marital status, city_type, stay_in_current_city), product details (product_id and product category) and Total purchase_amount from last month.
 
-You can use the [editor on GitHub](https://github.com/Rohan2596/BlackFriday/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Now, they want to build a model to predict the purchase amount of customer against various products which will help them to create personalized offer for customers against different products.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Rohan2596/BlackFriday/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+###########################
+Data
+Variable	                  Definition
+User_ID  	                   User ID
+Product_ID	                 Product ID
+Gender	                     Sex of User
+Age	                         Age in bins
+Occupation	                 Occupation (Masked)
+City_Category	               Category of the City (A,B,C)
+Stay_In_Current_City_Years 	 Number of years stay in current city
+Marital_Status	             Marital Status
+Product_Category_1	         Product Category (Masked)
+Product_Category_2	         Product may belongs to other category also (Masked)
+Product_Category_3	         Product may belongs to other category also (Masked)
+Purchase	                   Purchase Amount (Target Variable)
